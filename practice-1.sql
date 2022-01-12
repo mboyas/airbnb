@@ -5,4 +5,4 @@
 -- +----------+
 
 SELECT COUNT(id)
-FROM reviews
+FROM reviews;
