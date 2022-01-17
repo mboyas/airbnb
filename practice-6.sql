@@ -17,4 +17,4 @@
 
 SELECT neighborhood, COUNT(reviews.listing_id)
 FROM listings INNER JOIN reviews ON listings.id = reviews.listing_id
-GROUP BY neighborhood
+GROUP BY neighborhood;
